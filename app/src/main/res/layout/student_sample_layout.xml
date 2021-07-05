@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardUseCompatPadding="false"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardCornerRadius="4dp"
+    android:id="@+id/cardViewID">
+
+    <RelativeLayout
+        android:paddingLeft="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/rollStdViewID"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01"
+                android:textSize="20sp"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_marginLeft="56dp"
+                android:layout_toRightOf="@id/rollStdViewID"
+                android:id="@+id/nameStdViewID"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Naime Islam"
+                android:textSize="20sp"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_alignParentRight="true"
+                android:id="@+id/statusStdViewID"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P"
+                android:layout_marginRight="36dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"></TextView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
